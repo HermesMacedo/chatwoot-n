@@ -169,7 +169,7 @@ GEM
     climate_control (1.2.0)
     coderay (1.1.3)
     commonmarker (0.23.10)
-    concurrent-ruby (1.3.3)
+    concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     crack (0.4.5)
       rexml
@@ -450,7 +450,7 @@ GEM
     marcel (1.0.4)
     maxminddb (0.1.22)
     memoist (0.16.2)
-    meta_request (0.8.2)
+    meta_request (0.8.3)
       rack-contrib (>= 1.1, < 3)
       railties (>= 3.0.0, < 8)
     method_source (1.1.0)
@@ -460,7 +460,7 @@ GEM
     mini_magick (4.12.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.7)
-    minitest (5.24.0)
+    minitest (5.25.1)
     mock_redis (0.36.0)
       ruby2_keywords
     msgpack (1.7.0)
@@ -489,14 +489,14 @@ GEM
     newrelic_rpm (9.6.0)
       base64
     nio4r (2.7.3)
-    nokogiri (1.16.6)
+    nokogiri (1.16.7)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.16.6-arm64-darwin)
+    nokogiri (1.16.7-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.6-x86_64-darwin)
+    nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.6-x86_64-linux)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)
@@ -553,7 +553,7 @@ GEM
     pundit (2.3.0)
       activesupport (>= 3.0.0)
     raabro (1.4.0)
-    racc (1.8.0)
+    racc (1.8.1)
     rack (2.2.9)
     rack-attack (6.7.0)
       rack (>= 1.0, < 4)
@@ -764,7 +764,7 @@ GEM
     strscan (3.1.0)
     telephone_number (1.4.20)
     test-prof (1.2.1)
-    thor (1.3.1)
+    thor (1.3.2)
     tilt (2.3.0)
     time_diff (0.3.0)
       activesupport
@@ -822,7 +822,7 @@ GEM
     working_hours (1.4.1)
       activesupport (>= 3.2)
       tzinfo
-    zeitwerk (2.6.16)
+    zeitwerk (2.6.17)
 
 PLATFORMS
   arm64-darwin-20
@@ -898,7 +898,7 @@ DEPENDENCIES
   listen
   lograge (~> 0.14.0)
   maxminddb
-  meta_request (>= 0.8.0)
+  meta_request (>= 0.8.3)
   mock_redis
   neighbor
   net-smtp (~> 0.3.4)
