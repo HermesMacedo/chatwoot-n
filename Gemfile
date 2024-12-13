@@ -4,7 +4,7 @@ ruby '3.2.2'
 
 ##-- base gems for rails --##
 gem 'rack-cors', '2.0.0', require: 'rack/cors'
-gem 'rails', '~> 7.0.8.4'
+gem 'rails', '~> 7.0.8.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
@@ -96,12 +96,12 @@ gem 'koala'
 # slack client
 gem 'slack-ruby-client', '~> 2.2.0'
 # for dialogflow integrations
-gem 'google-cloud-dialogflow-v2'
+gem 'google-cloud-dialogflow-v2', '>= 1.5.0'
 gem 'grpc'
 # Translate integrations
 # 'google-cloud-translate' gem depends on faraday 2.0 version
 # this dependency breaks the slack-ruby-client gem
-gem 'google-cloud-translate-v3'
+gem 'google-cloud-translate-v3', '>= 1.3.0'
 
 ##-- apm and error monitoring ---#
 # loaded only when environment variables are set.
